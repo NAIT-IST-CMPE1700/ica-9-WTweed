@@ -1,0 +1,27 @@
+﻿  linkedList.c
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(9,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(20,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(44,26): warning C4047: '=': 'int' differs in levels of indirection from 'int *'
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(45,31): warning C4047: '=': 'int' differs in levels of indirection from 'int *'
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(52,25): warning C4047: '>': 'int *' differs in levels of indirection from 'int'
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(56,63): warning C4047: '>': 'int *' differs in levels of indirection from 'int'
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(64,25): warning C4047: '<': 'int *' differs in levels of indirection from 'int'
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(78,26): warning C4047: '=': 'int' differs in levels of indirection from 'int *'
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(79,31): warning C4047: '=': 'int' differs in levels of indirection from 'int *'
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(86,30): warning C4047: '<': 'int *' differs in levels of indirection from 'int'
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(90,69): warning C4047: '<': 'int *' differs in levels of indirection from 'int'
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(90,106): warning C4047: '==': 'int *' differs in levels of indirection from 'int'
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(98,30): warning C4047: '>': 'int *' differs in levels of indirection from 'int'
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(115,39): warning C4474: 'scanf_s' : too many arguments passed for format string
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(115,39): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(122,15): warning C4013: 'DisplayList' undefined; assuming extern returning int
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(132,15): warning C4013: 'DisplayByID' undefined; assuming extern returning int
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(137,20): warning C4013: 'DisplayThreshold' undefined; assuming extern returning int
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(179,36): warning C4474: 'scanf_s' : too many arguments passed for format string
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(179,36): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(205,40): warning C4474: 'scanf_s' : too many arguments passed for format string
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(205,40): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(197): warning C4716: 'DisplayByID': must return a value
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(171): warning C4716: 'DisplayList': must return a value
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(216): warning C4716: 'DisplayThreshold': must return a value
+  ICA09-CMPE1700.vcxproj -> C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\Debug\ICA09-CMPE1700.exe
