@@ -214,4 +214,23 @@ DisplayThreshold(ptr displayThreshold)
 	}
 	printf("\n-----------------------------------\n\n");
 }
+FreeMem(ptr freeID, ptr freeGrades)
+{
+	ptr current = freeID;
+	ptr current2 = freeGrades;
+
+	ptr x, y;
+
+	while (current != NULL)
+	{
+		x = current->next;
+		y = current2->next;
+
+		free(current);
+		free(current2);
+
+		current = x;
+		current2 = y;
+	}
+}
 

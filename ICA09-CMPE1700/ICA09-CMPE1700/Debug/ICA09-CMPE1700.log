@@ -20,8 +20,18 @@ C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE170
 C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(179,36): warning C4474: 'scanf_s' : too many arguments passed for format string
 C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(179,36): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
 C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(205,40): warning C4474: 'scanf_s' : too many arguments passed for format string
+  main.c
 C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(205,40): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
-C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(197): warning C4716: 'DisplayByID': must return a value
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\main.c(17,11): warning C4013: 'CreateIDs' undefined; assuming extern returning int
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\main.c(18,14): warning C4013: 'CreateGrades' undefined; assuming extern returning int
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\main.c(22,13): warning C4013: 'AddID' undefined; assuming extern returning int
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\main.c(22,45): warning C4047: '=': 'ptr' differs in levels of indirection from 'int'
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\main.c(23,21): warning C4013: 'AddGrades' undefined; assuming extern returning int
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\main.c(23,58): warning C4047: '=': 'ptr' differs in levels of indirection from 'int'
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\main.c(29,15): warning C4013: 'Menu' undefined; assuming extern returning int
+  Generating Code...
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\main.c(32,9): warning C4013: 'FreeMem' undefined; assuming extern returning int
 C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(171): warning C4716: 'DisplayList': must return a value
+C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(197): warning C4716: 'DisplayByID': must return a value
 C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\ICA09-CMPE1700\linkedList.c(216): warning C4716: 'DisplayThreshold': must return a value
   ICA09-CMPE1700.vcxproj -> C:\Users\fillt\OneDrive\Desktop\GitHub\ica-9-WTweed\ICA09-CMPE1700\Debug\ICA09-CMPE1700.exe

@@ -7,6 +7,7 @@ void main(int argc, char** argv)
 
 	ptr ID = NULL;
 	ptr Grades = NULL;
+
 	bool exitM = false;
 
 	char* Names[10]={ "Will", "Jeremy", "Emily", "Wyatte", "Josh", "Jo-Anne", "Greg", "Jake", "Carol", "Tyler" };
@@ -27,6 +28,8 @@ void main(int argc, char** argv)
 	{
 		exitM = Menu(ID, Grades);
 	}
+
+	FreeMem(ID, Grades);
 
 	exit(EXIT_SUCCESS);
 }

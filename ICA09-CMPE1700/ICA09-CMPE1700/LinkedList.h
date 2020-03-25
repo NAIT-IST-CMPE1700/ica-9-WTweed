@@ -1,3 +1,7 @@
+#ifndef 1
+
+#endif // !1
+
 #pragma once
 
 struct node 
