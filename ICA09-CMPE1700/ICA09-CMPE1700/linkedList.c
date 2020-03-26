@@ -172,6 +172,7 @@ DisplayList(ptr displayID)
 DisplayByID(ptr displayByID)
 {
 	int IDSelection;
+	int Rank = 0;
 	ptr current;
 	current = displayByID;
 
@@ -180,9 +181,10 @@ DisplayByID(ptr displayByID)
 
 	while (current  != NULL)
 	{
+		Rank++;
 		if (current->ID == IDSelection)
 		{
-			printf("\nName: %s  Grade: %d  \n---------------------------------\n\n", current->name, current->mark);
+			printf("\nRank: %d  Name: %s  Grade: %d  \n---------------------------------\n\n",Rank, current->name, current->mark);
 			break;
 		}
 		if (current->ID != IDSelection)
@@ -204,13 +206,20 @@ DisplayThreshold(ptr displayThreshold)
 	printf("Select Threshold: ");
 	scanf_s("%d", &threshSelection, sizeof(int));
 
-	while (current != NULL)
+	if (threshSelection >= 0 && threshSelection <= 100)
 	{
-		if (current->mark > threshSelection)
+		while (current != NULL)
 		{
-			printf("\nName: %s  Grade: %d  ", current->name, current->mark);
+			if (current->mark > threshSelection)
+			{
+				printf("\nName: %s  Grade: %d  ", current->name, current->mark);
+			}
+			current = current->next;
 		}
-		current = current->next;
+	}
+	else
+	{
+		printf("\nPlease Enter a Valid Threshold!");
 	}
 	printf("\n-----------------------------------\n\n");
 }

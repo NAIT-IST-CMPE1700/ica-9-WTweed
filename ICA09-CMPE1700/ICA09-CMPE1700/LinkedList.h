@@ -1,6 +1,5 @@
-#ifndef 1
-
-#endif // !1
+#ifndef LINBKEDLISTH
+#define LINKEDLISTH
 
 #pragma once
 
@@ -19,3 +18,6 @@ typedef enum
 
 
 typedef struct node* ptr;
+
+
+#endif
